@@ -1,0 +1,83 @@
+<DOCTYPE html> 
+    <html>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Search</title>
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    
+            <!-- Font links -->
+            <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Roboto:400|Montserrat:700" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
+    
+            <!-- CSS -->
+            <link rel="stylesheet" type="text/css" href="main.css">
+        </head>
+        <body>
+            <!-- Header -->
+            <div id="header" class="container-fluid">
+                <div class="row header-lines">
+                    <div class="col bg-green"></div>
+                    <div class="col bg-blue"></div>
+                    <div class="col bg-sky"></div>
+                    <div class="col bg-orange"></div>
+                    <div class="col bg-red"></div>
+                    <div class="col bg-yellow"></div>
+                    <div class="col bg-pink"></div>
+                </div>
+                <div class="row align-items-center justify-content-md-center">
+                    <div class="col-12 col-lg-10 head-text lead">D:\Store\Products\Search$></div>
+                    <a href="/aboutme/index.html" class="col-2 col-lg-1 ball">About me</a>
+                </div>
+                <div id="search-bar" class="row align-items-center">
+                    <div class="svg-bg col-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="svg-icon" fill="white" viewBox="0 0 512 512"><!-- Font Awesome Pro 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+                    </div>
+                    <input class="col-8" autocomplete="off" type="text" id="search" placeholder="Type to search...">
+                    <select name="categories" id="categories" class="col-3">
+                        <option value="all">All Categories</option>
+                        <option value="smartphones">Smartphones</option>
+                        <option value="laptops">Laptops</option>
+                        <option value="fragrances">Fragrances</option>
+                        <option value="skincare">Skincare</option>
+                        <option value="groceries">Groceries</option>
+                        <option value="home-decoration">Home-decoration</option>
+                      </select>
+                </div>
+            </div>
+
+            <div id="wrapper" class="container-fluid">
+                <div id="resultslist" class="row">
+
+                    <!--
+                    <div class="result col-lg-4 col-12 col-sm-6">
+                        <div class="resultcard row">
+                            <img class="feature col-6" src="https://dummyjson.com/image/i/products/3/thumbnail.jpg">
+                            <div class="source col-6">
+                                <span class="brand">Apple</span><span> · </span><span class="category">smartphones</span>
+                                <h1 class="source-title">iPhone 9</h1>
+                                <div class="row">
+                                    <div class="price col-3"><strong>$</strong><span>239</span></div>
+                                    <div class="price col-3"><span class="strike1"><span class="strike2"><strong>$</strong><span>239</span></span></span></div>
+                                </div>
+                                <p class="source-desc lead">An apple mobile which is nothing like apple</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-12">
+                        <img class="no-result show" src="assets/no-search.png">
+                    </div>
+                    -->
+                </div>
+            </div>
+            
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="main.js"></script>
+    </html>
